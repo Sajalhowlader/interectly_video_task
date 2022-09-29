@@ -2,21 +2,21 @@ import React from "react";
 import ReactPlayer from "react-player";
 import { useNavigate } from "react-router-dom";
 const VpageOne = () => {
-    const navigate = useNavigate()
- const handleFirstVideo =()=>{
-    navigate('/Campaing/structure')
- }
- const handleSecondVideo = ()=>{
-    navigate('/LearnFacebook/basics')
- }
- const handleThirdVideo = ()=>{
-    navigate('/3rd/choice')
- }
+  const navigate = useNavigate();
+  const handleFirstVideo = () => {
+    navigate("/Campaing/structure");
+  };
+  const handleSecondVideo = () => {
+    navigate("/LearnFacebook/basics");
+  };
+  const handleThirdVideo = () => {
+    navigate("/3rd/choice");
+  };
   return (
     <section>
       <div className="vPageOneControler">
         <ReactPlayer
-          url="https://www.youtube.com/watch?v=oITDcIjJBlY"
+          url="https://www.youtube.com/watch?v=2BAVgl0FQIA&t=81s"
           playing
           controls
           loop={true}

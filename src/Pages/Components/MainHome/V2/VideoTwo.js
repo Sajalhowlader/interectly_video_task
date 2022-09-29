@@ -6,7 +6,7 @@ const VideoTwo = () => {
     <section>
       <div className="vPageOneControler">
         <ReactPlayer
-          url="https://www.youtube.com/watch?v=oITDcIjJBlY"
+          url="https://www.youtube.com/watch?v=S0QmO0OAq3w"
           playing
           controls
           loop={true}
