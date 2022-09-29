@@ -6,6 +6,12 @@ const VpageOne = () => {
  const handleFirstVideo =()=>{
     navigate('/Campaing/structure')
  }
+ const handleSecondVideo = ()=>{
+    navigate('/LearnFacebook/basics')
+ }
+ const handleThirdVideo = ()=>{
+    navigate('/3rd/choice')
+ }
   return (
     <section>
       <div className="vPageOneControler">
@@ -24,12 +30,12 @@ const VpageOne = () => {
             <span>Campaing structure</span>
           </button>
           <br />
-          <button>
+          <button onClick={handleSecondVideo}>
             <span className="rounded_number">b</span>{" "}
             <span>Learn Facebook basics</span>
           </button>
           <br />
-          <button>
+          <button onClick={handleThirdVideo}>
             <span className="rounded_number">c</span> <span>3rd choice</span>
           </button>
         </div>
