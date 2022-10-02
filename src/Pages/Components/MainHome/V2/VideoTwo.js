@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactPlayer from "react-player";
-
+import SIngUp from "../../../SingUp/SIngUp";
 const VideoTwo = () => {
+  const [show, setShow] = useState(false);
+
   return (
     <section>
       <div className="vPageOneControler">
@@ -15,7 +17,12 @@ const VideoTwo = () => {
           height="100vh"
         />
         <div className="redirectBtn campingBtn">
-          <button>Download "Campaing Structure Guide"</button>
+          {show ? <SIngUp /> : null}
+          {show ? null : (
+            <button onClick={() => setShow(!show)}>
+              Download "Campaing Structure Guide"
+            </button>
+          )}
         </div>
       </div>
     </section>

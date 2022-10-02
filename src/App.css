@@ -43,3 +43,27 @@ span.rounded_number {
   background: #776fe9;
   color: white;
 }
+.singUpTitle {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.inputSec input {
+  border: none;
+  border-bottom: 1px solid gray;
+  margin: 8px 0px;
+  width: 95%;
+  font-size: 20px;
+  outline: none;
+  padding: 10px 0px;
+}
+
+.checkboxCondition {
+  display: flex;
+  padding: 2rem 0rem;
+  gap: 10px;
+}
+.checkboxCondition p {
+  width: 35rem;
+  font-size: 14px;
+}
